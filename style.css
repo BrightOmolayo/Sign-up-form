@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    gap: 4%;
+}
+
+img{
+    width: 100%;
+}
+
+.sidebar{
+    width: 40%;
+}
+
+.sidebardiv{
+    background-color: black;
+    position:absolute;
+    bottom: 220px;
+    width: 40%;
+    opacity: 0.5;
+    color: hsl(0, 0%, 90%);
+}
+
+.sidebarLogo{
+    height: 170px;
+
+}
+
+.sidebarLogo p{
+
+    position: relative;
+    left:55% ;
+    bottom: 80px;
+    font-size: 3rem;
+    z-index: 99;
+    font-weight: bold;
+     
+    
+}
+
+.Logoimg{
+    width: 90px;
+    position: relative;
+    left: 33% ;
+    padding-top: 13px;
+}
+.content{
+    position: relative;
+    width: 47%;
+    padding-top: 160px;
+}
+
+form{
+    padding-top: 60px;
+}
+
+.form{
+    display: flex;
+    
+}
+
+.form1{
+    display: block;
+
+}
+
+.form2{
+    display: block;
+    
+}
+
+h3{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+}
+
+label{
+    font-size: 10px;
+}
+
+input{
+    padding: 5px;
+    border-color: black;
+}
+
+input:valid:required{
+    border-color: green;
+}
